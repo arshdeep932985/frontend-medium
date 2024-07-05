@@ -21,6 +21,7 @@ const Blog = () => {
        
     }
   return (
+    //@ts-ignore
     <div>{<FullBlog blog={blog}/>}</div>
   )
 }

@@ -41,7 +41,7 @@ const BlogCard = ({id,authorName,title,content,publishedDate}:BlogCardProps) => 
 export function Avatar({name,size=6}:{name:string,size?:number}){
     return (
         <div className={`relative inline-flex items-center  justify-center w-${size} h-${size} overflow-hidden bg-gray-300 rounded-full `}>
-    <span className="text-sm text-gray-800 ">{name[0]}</span>
+    <span className="text-sm text-gray-800 p-2 ">{name[0]}</span>
 </div>
     )
 }
